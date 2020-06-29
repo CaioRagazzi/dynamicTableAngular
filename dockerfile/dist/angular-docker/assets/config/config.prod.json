@@ -1,0 +1,12 @@
+{
+    "config" : {
+        "BackendUri" : "http://localhost:5002",
+        "CTI" : {
+            "RequestInterval": 3,
+            "MaxTimeout": 180
+        },
+        "Customers" : {
+            "PageSize": 5
+        }
+    }
+}

@@ -1,0 +1,31 @@
+﻿{
+    "AngularDesktop": {
+        "ForgotPassword": {
+            "btnBack": "voltar",
+            "btnRecover": "recuperar",
+            "emailBody": "Sua NOVA senha de acesso ao sistema é: ",
+            "emailSubject": "Recuperação de senha",
+            "ForgotPasswordTitle": "Recuperar Senha :: Orbium",
+            "InvalidUserName": "Nome de usuário inválido.",
+            "lblRecoverPassword": "Recuperar senha",
+            "lblRecoverySuccessful": "Senha enviada com sucesso para o e-mail: ",
+            "lblUsernameReminder": "Digite abaixo seu nome de usuário",
+            "RecaptchaValidationFailure": "Falha na validação do recaptcha.",
+            "RecoveryFailure": "Falha na recuperação de senha.",
+            "txtUsername": "Usuário"
+        },
+        "Login": {
+            "btnForgotPassword": "esqueci minha senha",
+            "btnLogin": "entrar",
+            "InvalidUsernamePassword": "Usuário ou senha inválidos.",
+            "LoginTitle": "Login :: Orbium",
+            "PermissionListFailure": "Falha ao listar permissões.",
+            "txtPassword": "Senha",
+            "txtUserName": "Usuário"
+        },
+        "Spinner": {
+            "Connecting": "Conectando...",
+            "WaitingMessage": "Aguarde enquanto processamos a solicitação..."
+        }
+    }
+}

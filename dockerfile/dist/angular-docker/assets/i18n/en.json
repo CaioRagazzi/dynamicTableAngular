@@ -1,0 +1,24 @@
+﻿{
+    "AngularDesktop": {
+        "ForgotPassword": {
+            "btnBack": "back",
+            "btnRecover": "recover",
+            "emailBody": "Your new password for system access is: ",
+            "emailSubject": "Password Recovery",
+            "lblRecoverPassword": "Recover password",
+            "lblRecoverySuccessful": "Password sent to the following e-mail address: ",
+            "lblUsernameReminder": "Type below the user name",
+            "txtUsername": "User"
+        },
+        "Login": {
+            "btnForgotPassword": "forgot password",
+            "btnLogin": "login",
+            "txtPassword": "Password",
+            "txtUserName": "User"
+        },
+        "Spinner": {
+            "Connecting": "Connecting ...",
+            "WaitingMessage": "Wait while your request is processed ...."
+        }
+    }
+}

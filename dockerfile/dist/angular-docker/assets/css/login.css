@@ -1,0 +1,102 @@
+ /* .ng-invalid.ng-touched input{
+  box-shadow: 0 0 0 0.1rem rgba(255, 0, 0, 0.5);
+} */
+
+ .login-area {
+   background: url(../imgs/layout/bg-login.png) left center no-repeat #ecf1f4;
+ }
+
+ .login-wrapper {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -webkit-align-items: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -webkit-justify-content: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   min-height: 100vh;
+ }
+
+ .logo-orbium {
+   width: 200px;
+   height: 70px;
+   display: block;
+   margin: 0px auto 48px;
+ }
+
+ .box-login {
+   width: 262px;
+   -webkit-box-flex: 0;
+   -webkit-flex: none;
+   -ms-flex: none;
+   flex: none;
+   max-width: 50%;
+   position: relative;
+ }
+
+ .box-login.loading form {
+   opacity: 0;
+ }
+
+ .box-login h2 {
+   font-size: 14px;
+   text-transform: uppercase;
+   color: #444248;
+   font-weight: 700;
+   margin-bottom: 0.75rem;
+ }
+
+ .box-login p {
+   font-size: 13px;
+   color: #7d8386;
+   margin-bottom: 0.75rem;
+ }
+
+ .box-login h2+p {
+   margin-bottom: 1.65rem;
+ }
+
+ .box-login .btn-full-width {
+   margin-top: 0.75rem;
+ }
+
+ .btn-forgot-password-login,
+ .btn-back-login {
+   font-size: 11px;
+   text-transform: uppercase;
+   color: #152935;
+   display: inline-block;
+   margin: 0px auto;
+ }
+
+ .btn-forgot-password-login:hover,
+ .btn-forgot-password-login:active,
+ .btn-back-login:hover,
+ .btn-back-login:active {
+   color: #152935;
+ }
+
+ .btn-back-login:before {
+   content: '';
+   display: inline-block;
+   width: 8px;
+   height: 11px;
+   background: url(../imgs/layout/arrow-back-login.png) center center no-repeat;
+   vertical-align: bottom;
+   margin-right: 12px;
+ }
+
+ .box-login label.error {
+   bottom: -7px;
+ }
+
+ .form-group .g-recaptcha>div[style] {
+   margin-left: -20px;
+   transform: scale(0.86, 0.86);
+ }
+

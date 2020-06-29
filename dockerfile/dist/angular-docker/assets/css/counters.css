@@ -1,0 +1,122 @@
+
+.counters{
+	text-align: center;
+}
+.counters > section{
+	margin-top: 40px;
+}
+.counters article{
+	font-size: 12px;
+	color:#999;
+	margin-top: 20px;
+	position: relative;
+}
+article .wait-counter{
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.counters i{
+	color:#FFF;
+}
+
+.circle-counter{
+	width: 60px;
+	margin: 0px auto;
+}
+.percent-circle{
+	transition: stroke 0.5s ease-in-out;
+}
+.percent-circle[data-percent=green]{
+	stroke: #00ff06;
+	-webkit-filter: url(#green-glow);
+	filter:url(#green-glow);
+}
+.percent-circle[data-percent=yellow]{
+	stroke: #fef100;
+	filter:url(#yellow-glow);
+}
+.percent-circle[data-percent=red]{
+	stroke: #ff0a0a;
+	filter:url(#red-glow);
+}
+
+.percent-circle[data-percent=finish]{
+	stroke: #ff0a0a;
+	filter:url(#red-glow);
+	animation: finish 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes finish {
+    0% {
+        stroke: #f07474;
+    }
+    100% {
+        stroke: #ff0a0a;
+    }
+}
+
+.horizontal-counters{
+	margin: 50px 15px 20px;
+	color:#FFF;
+	background: #152935;
+	border-radius: 5px;
+    box-shadow: 1px 1px 0px 0px rgba(219,224,227,1);
+	display: flex;
+	overflow: hidden;
+}
+.horizontal-counters article{
+	padding: 20px 20px 18px;
+	opacity: 0.5;
+	background: #152935;
+	flex-grow: 1;
+}
+.horizontal-counters article.active{
+	background: #21333f;
+	opacity:1;
+}
+.left-counter{
+	font-size: 12px;
+    color: #999;
+    position: relative;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+.content-counter-horizontal{
+	display: inline-block;
+	width: calc(100% - 64px);
+	padding: 0px 15px;
+	vertical-align: middle;
+}
+.content-counter-horizontal h4{
+	font-size: 13px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.content-counter-horizontal p{
+	font-size: 13px;
+	color:#7d8386;
+}
+.content-counter-horizontal .count-notifications{
+	font-size: 9px;
+	position: static;
+	padding: 0px 5px;
+	right: auto;
+	top: auto;
+	margin-left: 15px;
+	line-height: 18px;
+	text-align: center;
+	min-width: 18px;
+	height: 18px;
+	font-weight: 700;
+	border-radius: 15px;
+	display: inline-block;
+	color:#FFF;
+	background: #f05050;
+}

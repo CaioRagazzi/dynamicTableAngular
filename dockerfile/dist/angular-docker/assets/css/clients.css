@@ -1,0 +1,89 @@
+/** Lista de Clientes
+ ---------------------------------------------------------*/
+.drop-menu-clients-list .container-checkbox {
+  height: 27px;
+  line-height: 27px;
+}
+
+.drop-menu-clients-list .dropdown-item.active,
+.drop-menu-clients-list .dropdown-item:active {
+  color: #FFF;
+  background: #152935;
+}
+
+.clients-list thead {
+  margin-bottom: 20px;
+}
+
+.clients-list thead tr td {
+  padding-top: 0px;
+  line-height: 26px;
+}
+
+.clients-list thead td.col-name {
+  padding-left: 66px;
+}
+
+.clients-list {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 5px;
+}
+
+.clients-list tbody {
+  overflow: hidden;
+  box-shadow: 1px 1px 0px 0px rgba(219, 224, 227, 1);
+}
+
+.clients-list tbody tr {
+  background: #FFF;
+}
+
+.clients-list tr>td {
+  padding: 24px 0px;
+  font-size: 13px;
+  line-height: 22px;
+  color: #7d8386;
+}
+
+.clients-list tbody tr:hover {
+  background: #f8f9f9;
+  box-shadow: 0px 1px 0px 0px rgba(219, 224, 227, 0.5);
+}
+
+.clients-list tr .col-name {
+  padding-left: 25px;
+  font-size: 14px;
+  color: #152935;
+}
+
+.clients-list tr .col-name i {
+  font-size: 19px;
+  margin-right: 10px;
+}
+
+.clients-list tr i.icon-user-lines {
+  color: #45d9c5;
+}
+
+.clients-list tr i.icon-company {
+  color: #ff8a00;
+}
+
+.clients-list-page .tabs-contextual .nav-tabs {
+  border-bottom: none;
+}
+
+.clients-list-page .nav-tabs .nav-link.active {
+  border-bottom-color: #42dac3;
+}
+
+.clients-list .test {
+  background: #42dac3;
+}
+
+.clients-list.loading {
+	opacity: 0;
+}
+  

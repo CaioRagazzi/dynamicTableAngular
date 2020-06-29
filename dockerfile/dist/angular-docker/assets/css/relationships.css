@@ -1,0 +1,215 @@
+
+.col-left-timeline-item .protocol-relationship{
+	font-size: 16px;
+}
+.col-left-timeline-item-relationship p:not(.protocol){
+	margin-top: 25px;
+}
+
+.relationship-details .orange-text{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#panel-form.tab-pane .actions-form{
+	margin-left: -50px;
+	margin-right: -50px;
+	position: static;
+}
+/** Relationship Lists
+ ---------------------------------------------------------*/
+.col-1-relationship-list,
+.col-4-relationship-list{
+	width: 22.5%;
+}
+.col-4-relationship-list{
+	padding-right: 20px;
+}
+.col-2-relationship-list{
+	width: 25%;
+}
+.col-3-relationship-list{
+	width: 30%;
+}
+.col-5-relationship-list,
+.col-6-relationship-list{
+	width: 50%;
+	margin-top: 18px;
+	padding: 0px 32px;
+}
+.col-1-relationship-list{
+	padding-left: 32px;
+}
+.col-6-relationship-list{
+	text-align: right;
+}
+.col-1-relationship-list i,
+.col-2-relationship-list i{
+	font-size: 18px;
+	color:#0568ff;
+}
+.protocol-relationship-list,
+.client-relationship-list{
+	font-size: 15px;
+	color:#152935;
+}
+.contact-relationship-list,
+.status-relationship-list{
+	font-size: 13px;
+	color:#7d8386;
+}
+.col-4-relationship-list .col-actions{
+	float: right;
+}
+.remote-stage-relationship,
+.created-on-relationship{
+	font-size: 10px;
+	color:#7d8386;
+}
+.created-on-relationship a{
+	color:#0568ff;
+	text-decoration: underline;
+}
+
+
+.chat-board,
+.form-board{
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px 0px rgba(219,224,227,1);
+    margin-top: 20px;
+}
+.chat-board .chat-text-area{
+	padding: 5px 30px 30px;
+}
+.chat-board .chat-text-area .client-thumb{
+	font-size: 14px;
+	color:#FFF;
+	font-weight: 700;
+	text-align: center;
+	width: 42px;
+	height: 42px;
+	line-height: 44px;
+	background: #79a873;
+	border-radius: 21px;
+	display: block;
+}
+.chat-input-area{
+	padding: 30px;
+	background: #e1e3e5; 
+}
+.tab-content .chat-input-area form{
+	padding:0px;
+}
+.tab-content .chat-input-area form .form-group{
+	position: relative;
+	margin-bottom: 0;
+}
+.tab-content .chat-input-area form .form-control{
+	padding-right: 50px;
+}
+.chat-input-area .btn-send-chat-form{
+	font-size: 18px;
+	color: #006cff;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.client-message:after,
+.our-message:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.client-message .message-wraper{
+	font-size: 14px;
+	line-height: 1.45em;
+	color:#7d8386;
+	padding: 30px 30px 12px;
+	width: 50%;
+	margin-left: 70px;
+	float: left;
+	display: inline-block;
+	background: #f8f9f9;
+	border-radius: 5px;
+	box-shadow: 1px 1px 0px 0px rgba(219,224,227,1);
+	position: relative;
+}
+.client-message .message-wraper .client-name{
+	font-size: 14px;
+	color: #000000;
+	display: block;
+	font-weight: 700;
+}
+.client-thumb{
+	position: absolute;
+	left: -60px;
+	top: 0px;
+}
+.client-message,
+.our-message{
+	margin-top: 30px;
+}
+.our-message .message-wraper{
+	font-size: 13px;
+	line-height: 1.45em;
+	color:#FFF;
+	padding: 30px 30px 12px;
+	width: 50%;
+	margin-right: 70px;
+	float: right;
+	display: inline-block;
+	background: #006cff;
+	border-radius: 5px;
+	position: relative;
+}
+.our-message .message-wraper .our-name{
+	font-weight: 700;
+}
+.client-message .message-wraper:after{
+	content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 18px 18px 0;
+    border-color:  transparent #f8f9f9 transparent transparent;
+    position: absolute;
+    left: -9px;
+    top: 0px;
+    z-index: 2;
+}
+.our-message .message-wraper:after{
+	content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 18px 18px 0 0;
+    border-color: #006cff transparent transparent transparent;
+    position: absolute;
+    right: -9px;
+    top: 0px;
+    z-index: 2;
+}
+.our-message + .our-message,
+.client-message + .client-message{
+	margin-top: 3px;
+}
+.client-message + .client-message .message-wraper .client-thumb,
+.client-message + .client-message .message-wraper:after,
+.our-message + .our-message .message-wraper:after{
+	display: none;
+}
+.chat-message-timestamp{
+	font-size: 10px;
+	display: block;
+	margin-top: 10px;
+	text-align: right;
+}
+.status-chat{
+	font-size: 13px;
+	color:#ff8843;
+	font-style: italic;
+}

@@ -1,0 +1,24 @@
+﻿{
+    "AngularDesktop": {
+        "ForgotPassword": {
+            "btnBack": "voltar",
+            "btnRecover": "recuperar",
+            "emailBody": "Sua NOVA senha de acesso ao sistema é: ",
+            "emailSubject": "Recuperação de senha",
+            "lblRecoverPassword": "Recuperar senha",
+            "lblRecoverySuccessful": "Senha enviada com sucesso para o e-mail: ",
+            "lblUsernameReminder": "Digite abaixo seu nome de usuário",
+            "txtUsername": "Usuario"
+        },
+        "Login": {
+            "btnForgotPassword": "olvidé mi contraseña",
+            "btnLogin": "entrar",
+            "txtPassword": "Contraseña",
+            "txtUserName": "Usuario"
+        },
+        "Spinner": {
+            "Connecting": "Conectando ...",
+            "WaitingMessage": "Espere mientras autorizamos su solicitud de acceso ...."
+        }
+    }
+}
